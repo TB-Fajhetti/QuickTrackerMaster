@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{C30ACE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{8332C21E-2C79-485D-83E1-55D720C13C4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTrackerService", "Common\QuickTrackService\QuickTrackerService\QuickTrackerService.csproj", "{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTrackerService", "Common\QuickTrackerService\QuickTrackerService.csproj", "{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
