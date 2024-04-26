@@ -21,17 +21,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoredProcedure", "StoredPr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{C30ACE5E-A388-4649-8628-AF975652D8DF}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_Category.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_Category.sql
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_Company.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_Company.sql
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_Contact.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_Contact.sql
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_Product.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_Product.sql
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_ProductCost.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_ProductCost.sql
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_Store.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_Store.sql
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_StoreLayout.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_StoreLayout.sql
-		..\..\..\..\..\QuickTracker\SQL\Tables\t_TransactionLog.sql = ..\..\..\..\..\QuickTracker\SQL\Tables\t_TransactionLog.sql
+		SQL\Tables\t_Category.sql = SQL\Tables\t_Category.sql
+		SQL\Tables\t_Company.sql = SQL\Tables\t_Company.sql
+		SQL\Tables\t_Contact.sql = SQL\Tables\t_Contact.sql
+		SQL\Tables\t_Product.sql = SQL\Tables\t_Product.sql
+		SQL\Tables\t_ProductCost.sql = SQL\Tables\t_ProductCost.sql
+		SQL\Tables\t_Store.sql = SQL\Tables\t_Store.sql
+		SQL\Tables\t_StoreLayout.sql = SQL\Tables\t_StoreLayout.sql
+		SQL\Tables\t_TransactionLog.sql = SQL\Tables\t_TransactionLog.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{8332C21E-2C79-485D-83E1-55D720C13C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTrackerService", "Common\QuickTrackService\QuickTrackerService\QuickTrackerService.csproj", "{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{F50034D0-7B6E-45F9-BBEC-14CE1ED9EC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50034D0-7B6E-45F9-BBEC-14CE1ED9EC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50034D0-7B6E-45F9-BBEC-14CE1ED9EC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{99709DBC-40CE-41CB-BCA4-0FB7B4B772B7} = {B1C6938D-4869-4CE8-935C-5A4EAA262E3B}
 		{C30ACE5E-A388-4649-8628-AF975652D8DF} = {B1C6938D-4869-4CE8-935C-5A4EAA262E3B}
 		{8332C21E-2C79-485D-83E1-55D720C13C4A} = {B1C6938D-4869-4CE8-935C-5A4EAA262E3B}
+		{F858D438-6C60-4C91-AD5E-52F7DDDC9AAE} = {C1A2365D-7521-4EF9-8D9F-CEC881D5E82D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E3501AA-00CB-443C-A4EC-9257DE3AE17E}
